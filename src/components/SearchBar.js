@@ -5,8 +5,11 @@ import {searchbarStyle} from '../styles';
 
 const SearchBar = (props) => {
   return (
-    // Search component for restaurants..
-    null
+    <View style={searchbarStyle.container}>
+      <TextInput 
+        placeholder= "Selarch a city"
+      />
+    </View>
   );
 };
 
